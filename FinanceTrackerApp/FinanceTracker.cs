@@ -27,4 +27,12 @@ namespace financeTracker
         // It includes functionality to add transactions, categorize them, 
         // and provide summaries (e.g., total income, total expenses, balance).
     }
+
+    class JsonFinanceStorage : IFinanceStorage
+    {
+        // Implementes the IFinanceStorage interface, 
+        // focusing on handling persistence 
+        // by reading from and writing to a transactions.json JSON file, 
+        // managing serialization and deserialization of Transaction objects.
+    }
 }
