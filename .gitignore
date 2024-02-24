@@ -1,4 +1,4 @@
 .vscode/launch.json
 .vscode/tasks.json
-.vscode/FinanceTrackerApp/bin/
-.vscode/FinanceTrackerApp/obj/
+FinanceTrackerApp/bin/
+FinanceTrackerApp/obj/
