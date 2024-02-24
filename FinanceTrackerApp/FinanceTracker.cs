@@ -12,12 +12,20 @@ namespace financeTracker
 
     class Transaction
     {
-        // ID should use the type Guid (i.e., public Guid ID {get; set; } = Guid.NewGuid();
-        // Constructor initializes a transaction with the provided details.
-        
-        public Transaction(Guid transactionId, DateTime date, string description, decimal amount, string category)
-        {
-            
+        public Guid Id { get; set; }
+        public DateTime Date { get; set; }
+        public string Description { get; set; }
+        public decimal Amount { get; set; }
+        public string Category { get; set; }
+
+    // Constructor initializes a transaction with the provided details.
+    public Transaction(Guid transactionId, DateTime date, string description, decimal amount, string category)
+    {
+        Id = transactionId;
+        Date = date;
+        Description = description;
+        Amount = amount;
+        Category = category;
         }
     }
 
