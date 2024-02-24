@@ -15,3 +15,6 @@ FinanceTrackerApp/obj/Debug/net7.0/ref/FinanceTrackerApp.dll
 FinanceTrackerApp/obj/Debug/net7.0/refint/FinanceTrackerApp.dll
 
 .fake
+FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.AssemblyInfo.cs
+FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.AssemblyInfoInputs.cache
+FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.GeneratedMSBuildEditorConfig.editorconfig

@@ -10,7 +10,7 @@ namespace financeTracker
         //Specifies methods for loading and saving transaction data.
     }
 
-    class Transaction
+    public class Transaction
     {
         public Guid Id { get; set; }
         public DateTime Date { get; set; }
@@ -18,14 +18,14 @@ namespace financeTracker
         public decimal Amount { get; set; }
         public string Category { get; set; }
 
-    // Constructor initializes a transaction with the provided details.
-    public Transaction(Guid transactionId, DateTime date, string description, decimal amount, string category)
-    {
-        Id = transactionId;
-        Date = date;
-        Description = description;
-        Amount = amount;
-        Category = category;
+        // Constructor initializes a transaction with the provided details.
+        public Transaction(Guid transactionId, DateTime date, string description, decimal amount, string category)
+        {
+            Id = transactionId;
+            Date = date;
+            Description = description;
+            Amount = amount;
+            Category = category;
         }
     }
 
