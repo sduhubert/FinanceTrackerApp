@@ -1,0 +1,14 @@
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/bin/Debug/net7.0/FinanceTrackerApp
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/bin/Debug/net7.0/FinanceTrackerApp.deps.json
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/bin/Debug/net7.0/FinanceTrackerApp.runtimeconfig.json
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/bin/Debug/net7.0/FinanceTrackerApp.dll
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/bin/Debug/net7.0/FinanceTrackerApp.pdb
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.AssemblyInfoInputs.cache
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.AssemblyInfo.cs
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.csproj.CoreCompileInputs.cache
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.dll
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/refint/FinanceTrackerApp.dll
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.pdb
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.genruntimeconfig.cache
+/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/ref/FinanceTrackerApp.dll
