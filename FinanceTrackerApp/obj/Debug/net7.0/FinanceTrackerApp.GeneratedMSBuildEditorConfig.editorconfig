@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FinanceTrackerApp
-build_property.ProjectDir = /Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/
+build_property.ProjectDir = C:\Users\User\OneDrive\Desktop\aoop\FinanceTrackerApp-1\FinanceTrackerApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -13,3 +13,5 @@ FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.genruntimeconfig.cache
 FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.pdb
 FinanceTrackerApp/obj/Debug/net7.0/ref/FinanceTrackerApp.dll
 FinanceTrackerApp/obj/Debug/net7.0/refint/FinanceTrackerApp.dll
+
+.fake

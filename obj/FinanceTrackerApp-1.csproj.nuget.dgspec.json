@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\aoop\\FinanceTrackerApp-1\\FinanceTrackerApp\\FinanceTrackerApp.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Desktop\\aoop\\FinanceTrackerApp-1\\FinanceTrackerApp-1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\aoop\\FinanceTrackerApp-1\\FinanceTrackerApp\\FinanceTrackerApp.csproj": {
+    "C:\\Users\\User\\OneDrive\\Desktop\\aoop\\FinanceTrackerApp-1\\FinanceTrackerApp-1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\aoop\\FinanceTrackerApp-1\\FinanceTrackerApp\\FinanceTrackerApp.csproj",
-        "projectName": "FinanceTrackerApp",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\aoop\\FinanceTrackerApp-1\\FinanceTrackerApp\\FinanceTrackerApp.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\aoop\\FinanceTrackerApp-1\\FinanceTrackerApp-1.csproj",
+        "projectName": "FinanceTrackerApp-1",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\aoop\\FinanceTrackerApp-1\\FinanceTrackerApp-1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\aoop\\FinanceTrackerApp-1\\FinanceTrackerApp\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\aoop\\FinanceTrackerApp-1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
