@@ -13,7 +13,7 @@ namespace financeTracker
 
     interface IFinanceStorage
     {
-        static abstract void Save(Transaction transaction, string fileName);
+        static abstract void Save(List<Transaction> transaction, string fileName);
         abstract static List<Transaction> Load(string fileName);
     }
 
@@ -45,7 +45,7 @@ namespace financeTracker
         private List<Transaction> transactions = new List<Transaction>();
 
 
-         public void AddTransaction()
+        public void AddTransaction()
         {
             Console.WriteLine("Enter transaction details:");
             Console.Write("Description: ");
@@ -62,6 +62,8 @@ namespace financeTracker
             Transaction transaction = new Transaction(Guid.NewGuid(), DateTime.Now, description, amount, category);
             transactions.Add(transaction);
             Console.WriteLine("Transaction added successfully.");
+
+            JsonFinanceStorage.Save(transactions, "transactions.json");
         }
         public void DisplayTransaction()
         {
@@ -108,7 +110,7 @@ namespace financeTracker
         // by reading from and writing to a transactions.json JSON file, 
         // managing serialization and deserialization of Transaction objects.
 
-        public static void Save(Transaction transaction, string fileName)
+        public static void Save(List<Transaction> transaction, string fileName)
         {
             string json = JsonSerializer.Serialize(transaction);
             File.WriteAllText(fileName, json);

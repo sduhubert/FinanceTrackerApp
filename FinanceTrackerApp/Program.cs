@@ -9,7 +9,7 @@ namespace financeTracker
         private static void Main(string[] args)
         {
             Console.Clear();
-             DisplayUI();
+            DisplayUI();
 
             /*
             string filePath = "transactions.json";
@@ -24,17 +24,8 @@ namespace financeTracker
 
         }
 
-
-        static void WriteTransactionDetails(Transaction transaction)
+        static void DisplayUI()
         {
-            Console.WriteLine($"ID: {transaction.Id}");
-            Console.WriteLine($"Date: {transaction.Date}");
-            Console.WriteLine($"Description: {transaction.Description}");
-            Console.WriteLine($"Amount: {transaction.Amount}");
-            Console.WriteLine($"Category: {transaction.Category}");
-        }
-
-            static void DisplayUI(){
             FinanceTracker financeTracker = new FinanceTracker();
 
             do
@@ -53,31 +44,33 @@ namespace financeTracker
                 {
                     case "1":
                         financeTracker.AddTransaction();
-                        Console.WriteLine("Press any key to continue:");
-                        Console.ReadLine();
+                        PressAnyKey();
                         break;
                     case "2":
                         financeTracker.DisplayTransaction();
-                        Console.WriteLine("Press any key to continue:");
-                        Console.ReadLine();
+                        PressAnyKey();
                         break;
                     case "3":
                         financeTracker.Summary();
-                        Console.WriteLine("Press any key to continue:");
-                        Console.ReadLine();
+                        PressAnyKey();
                         break;
                     case "4":
                         Console.WriteLine("Closing the app...");
-                        Console.WriteLine("Press any key to continue:");
-                        Console.ReadLine();
+                        PressAnyKey();
                         return;
                     default:
                         Console.WriteLine("Wrong input. Please try again!");
-                        Console.WriteLine("Press any key to continue:");
-                        Console.ReadLine();
+                        PressAnyKey();
                         break;
                 }
-            } while (true);
+            } 
+            while (true);
+        }
+        
+        static void PressAnyKey()
+        {
+            Console.WriteLine("\nPress any key to continue...");
+            Console.ReadKey();
         }
     }
 }
