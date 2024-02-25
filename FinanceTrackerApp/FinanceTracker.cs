@@ -13,8 +13,8 @@ namespace financeTracker
 
     interface IFinanceStorage
     {
-        void SaveToJson(Transaction transaction, string fileName);
-        public List<Transaction> LoadFromJson(string fileName);
+        static abstract void SaveToJson(Transaction transaction, string fileName);
+        abstract static List<Transaction> LoadFromJson(string fileName);
     }
 
     public class Transaction
