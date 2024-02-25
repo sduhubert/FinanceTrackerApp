@@ -3,11 +3,16 @@ namespace financeTracker
     interface IFinance
     {
         //Specifies methods for adding, viewing, and categorizing transactions.
+        public void AddTransaction();
+        public void History();
+        public void DisplayTransaction();
     }
 
     interface IFinanceStorage
     {
         //Specifies methods for loading and saving transaction data.
+        public void SaveData();
+        public void loadData();
     }
 
     public class Transaction
