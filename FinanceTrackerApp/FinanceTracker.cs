@@ -45,15 +45,17 @@ namespace financeTracker
         private List<Transaction> transactions = new List<Transaction>();
 
 
-        public void AddTransaction()
+         public void AddTransaction()
         {
             Console.WriteLine("Enter transaction details:");
-            // Console.Write("Date (yyyy-mm-dd): ");
-            // DateTime date = DateTime.Parse(Console.ReadLine());
             Console.Write("Description: ");
             string description = Console.ReadLine();
-            Console.Write("Amount: ");
-            decimal amount = decimal.Parse(Console.ReadLine());
+            decimal amount;
+            do
+            {
+                Console.Write("Amount: ");
+            } while (!decimal.TryParse(Console.ReadLine(), out amount));
+
             Console.Write("Category: ");
             string category = Console.ReadLine();
 
