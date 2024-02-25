@@ -48,8 +48,8 @@ namespace financeTracker
         public void AddTransaction()
         {
             Console.WriteLine("Enter transaction details:");
-            Console.Write("Date (yyyy-mm-dd): ");
-            DateTime date = DateTime.Parse(Console.ReadLine());
+            // Console.Write("Date (yyyy-mm-dd): ");
+            // DateTime date = DateTime.Parse(Console.ReadLine());
             Console.Write("Description: ");
             string description = Console.ReadLine();
             Console.Write("Amount: ");
@@ -57,7 +57,7 @@ namespace financeTracker
             Console.Write("Category: ");
             string category = Console.ReadLine();
 
-            Transaction transaction = new Transaction(Guid.NewGuid(), date, description, amount, category);
+            Transaction transaction = new Transaction(Guid.NewGuid(), DateTime.Now, description, amount, category);
             transactions.Add(transaction);
             Console.WriteLine("Transaction added successfully.");
         }

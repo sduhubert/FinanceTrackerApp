@@ -9,7 +9,7 @@ namespace financeTracker
         private static void Main(string[] args)
         {
             Console.Clear();
-            // DisplayUI();
+             DisplayUI();
 
             /*
             string filePath = "transactions.json";
@@ -27,7 +27,7 @@ namespace financeTracker
 
         static void WriteTransactionDetails(Transaction transaction)
         {
-            // Console.WriteLine($"ID: {transaction.Id}");
+            Console.WriteLine($"ID: {transaction.Id}");
             Console.WriteLine($"Date: {transaction.Date}");
             Console.WriteLine($"Description: {transaction.Description}");
             Console.WriteLine($"Amount: {transaction.Amount}");
