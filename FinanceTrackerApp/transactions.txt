@@ -1,0 +1,1 @@
+{"Id":"6be3f9a4-f743-4ff9-94ad-872cd009311e","Date":"2024-02-25T18:42:33.3745+01:00","Description":"pizza","Amount":100,"Category":"Restaurants"}
