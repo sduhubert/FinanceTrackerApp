@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xq21xNJFU+CNaalSyNVdiPDkKxmEiqjv6nZDXai7luXMLMaVFOHfrBlgBaznVrvHuV4MAxbV8TfDO7p0Pj+Rfw==",
+  "dgSpecHash": "6KFg7rQuAEqSdbkrOJTEhrZ90TrSP8mmnD60rEzex4RF8mSLrvoqFuee/WzeOSj7HxUIM02vbPoV/jslh7f71g==",
   "success": true,
-  "projectFilePath": "/Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/FinanceTrackerApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\kubun\\OneDrive\\Documents\\Studia\\Semester 2 2024\\4. Advanced OOP\\Finance tracking app\\FinanceTrackerApp\\FinanceTrackerApp\\FinanceTrackerApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kubun\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\kubun\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\kubun\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\kubun\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

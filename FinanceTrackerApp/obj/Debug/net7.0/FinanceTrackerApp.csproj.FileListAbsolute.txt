@@ -12,3 +12,18 @@
 /Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.pdb
 /Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/FinanceTrackerApp.genruntimeconfig.cache
 /Users/hubert/Desktop/c#/FinanceTrackerApp/FinanceTrackerApp/obj/Debug/net7.0/ref/FinanceTrackerApp.dll
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\bin\Debug\net7.0\FinanceTrackerApp.exe
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\bin\Debug\net7.0\FinanceTrackerApp.deps.json
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\bin\Debug\net7.0\FinanceTrackerApp.runtimeconfig.json
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\bin\Debug\net7.0\FinanceTrackerApp.dll
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\bin\Debug\net7.0\FinanceTrackerApp.pdb
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\obj\Debug\net7.0\FinanceTrackerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\obj\Debug\net7.0\FinanceTrackerApp.AssemblyInfoInputs.cache
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\obj\Debug\net7.0\FinanceTrackerApp.AssemblyInfo.cs
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\obj\Debug\net7.0\FinanceTrackerApp.csproj.CoreCompileInputs.cache
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\obj\Debug\net7.0\FinanceTrackerApp.sourcelink.json
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\obj\Debug\net7.0\FinanceTrackerApp.dll
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\obj\Debug\net7.0\refint\FinanceTrackerApp.dll
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\obj\Debug\net7.0\FinanceTrackerApp.pdb
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\obj\Debug\net7.0\FinanceTrackerApp.genruntimeconfig.cache
+C:\Users\kubun\OneDrive\Documents\Studia\Semester 2 2024\4. Advanced OOP\Finance tracking app\FinanceTrackerApp\FinanceTrackerApp\obj\Debug\net7.0\ref\FinanceTrackerApp.dll
