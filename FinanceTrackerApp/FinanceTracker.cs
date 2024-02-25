@@ -13,22 +13,22 @@ namespace financeTracker
 
     interface IFinanceStorage
     {
-        static abstract void SaveToJson(Transaction transaction, string fileName);
-        abstract static List<Transaction> LoadFromJson(string fileName);
+        static abstract void Save(Transaction transaction, string fileName);
+        abstract static List<Transaction> Load(string fileName);
     }
 
     public class Transaction
     {
-        // public Guid Id { get; set; }
+        public Guid Id { get; set; }
         public DateTime Date { get; set; }
         public string Description { get; set; }
         public decimal Amount { get; set; }
         public string Category { get; set; }
 
         // Constructor initializes a transaction with the provided details.
-        public Transaction( DateTime date, string description, decimal amount, string category)
+        public Transaction(Guid id, DateTime date, string description, decimal amount, string category)
         {
-            // Id = transactionId;
+            Id = id;
             Date = date;
             Description = description;
             Amount = amount;
@@ -57,7 +57,7 @@ namespace financeTracker
             Console.Write("Category: ");
             string category = Console.ReadLine();
 
-            Transaction transaction = new Transaction(date, description, amount, category);
+            Transaction transaction = new Transaction(Guid.NewGuid(), date, description, amount, category);
             transactions.Add(transaction);
             Console.WriteLine("Transaction added successfully.");
         }
@@ -99,11 +99,32 @@ namespace financeTracker
         }
     }
 
-    // public class JsonFinanceStorage : IFinanceStorage
-    // {
-    //     // Implementes the IFinanceStorage interface, 
-    //     // focusing on handling persistence 
-    //     // by reading from and writing to a transactions.json JSON file, 
-    //     // managing serialization and deserialization of Transaction objects.
-    // }
+    public class JsonFinanceStorage : IFinanceStorage
+    {
+        // Implementes the IFinanceStorage interface, 
+        // focusing on handling persistence 
+        // by reading from and writing to a transactions.json JSON file, 
+        // managing serialization and deserialization of Transaction objects.
+
+        public static void Save(Transaction transaction, string fileName)
+        {
+            string json = JsonSerializer.Serialize(transaction);
+            File.WriteAllText(fileName, json);
+        }
+
+        public static List<Transaction> Load(string fileName)
+        {
+            List<Transaction> newTransactions = new List<Transaction>
+            {
+                JsonSerializer.Deserialize<Transaction>(File.ReadAllText(fileName))
+            };
+
+            foreach (Transaction temp in newTransactions)
+            {
+                Console.WriteLine($"Id: {temp.Id}, Date: {temp.Date}, Description: {temp.Description}, Amount: {temp.Amount}, Category: {temp.Category}");
+            }
+
+            return newTransactions;
+        }
+    }
 }
