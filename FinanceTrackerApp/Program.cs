@@ -1,4 +1,4 @@
-﻿using System.Text.Json;
+﻿﻿using System.Text.Json;
 
 namespace financeTracker
 {
@@ -18,46 +18,60 @@ namespace financeTracker
             // WriteTransactionDetails(transaction);
         }
 
+
         static void WriteTransactionDetails(Transaction transaction)
         {
-            Console.WriteLine($"ID: {transaction.Id}");
+            // Console.WriteLine($"ID: {transaction.Id}");
             Console.WriteLine($"Date: {transaction.Date}");
             Console.WriteLine($"Description: {transaction.Description}");
             Console.WriteLine($"Amount: {transaction.Amount}");
             Console.WriteLine($"Category: {transaction.Category}");
         }
 
-        static void DisplayUI(){
-            do{
+            static void DisplayUI(){
+            FinanceTracker financeTracker = new FinanceTracker();
+
+            do
+            {
                 Console.Clear();
-                Console.WriteLine("Welcome in Finance tracer app!");
+                Console.WriteLine("Welcome to Finance Tracker app!");
                 Console.WriteLine("1. New transaction.");
                 Console.WriteLine("2. History");
                 Console.WriteLine("3. Summary");
                 Console.WriteLine("4. Quit");
-                
-                string? userInput = "";
-                Console.Write(">");
-                userInput = Console.ReadLine();
 
-                switch(userInput){
+                Console.Write(">");
+                string userInput = Console.ReadLine();
+
+                switch (userInput)
+                {
                     case "1":
-                        //New transaction
+                        financeTracker.AddTransaction();
+                        Console.WriteLine("Press any key to continue:");
+                        Console.ReadLine();
                         break;
                     case "2":
-                        //History
+                        financeTracker.DisplayTransaction();
+                        Console.WriteLine("Press any key to continue:");
+                        Console.ReadLine();
                         break;
                     case "3":
-                        //Summary
+                        financeTracker.Summary();
+                        Console.WriteLine("Press any key to continue:");
+                        Console.ReadLine();
                         break;
                     case "4":
                         Console.WriteLine("Closing the app...");
+                        Console.WriteLine("Press any key to continue:");
+                        Console.ReadLine();
                         return;
                     default:
-                        Console.WriteLine("Wrong input. Please try agian!");
-                    break;
+                        Console.WriteLine("Wrong input. Please try again!");
+                        Console.WriteLine("Press any key to continue:");
+                        Console.ReadLine();
+                        break;
                 }
-            }while(true);
+            } while (true);
         }
     }
 }
