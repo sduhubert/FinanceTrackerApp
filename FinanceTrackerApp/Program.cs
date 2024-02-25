@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.IO.Enumeration;
+using System.Text.Json;
 using System.Transactions;
 
 namespace financeTracker
@@ -9,20 +10,18 @@ namespace financeTracker
         {
             Console.Clear();
             // DisplayUI();
+
+            /*
+            string filePath = "transactions.json";
+            Transaction pizza = new Transaction(Guid.NewGuid(), DateTime.Now, "pizza", 100, "food");
+            JsonFinanceStorage.Save(pizza, filePath);
+            JsonFinanceStorage.Load(filePath);
             
-            // Provide a console-based UI that allows users to interact with the finance tracker. 
-            // Users can add new transactions, view transaction history, and see financial summaries based on 
-            // categories or overall.
-            
-            Transaction transaction = new Transaction(Guid.NewGuid(), DateTime.Now, "pizza", 100, "Restaurants");
-            JsonFinanceStorage.SaveToJson(transaction, "transactions.txt");
+            ## what we have here makes a single transaction possible to be stored and loaded from JSON
+            ## whoever has an idea to extend it can try it out :)
 
+            */
 
-            string[] ?deserializedTransactions = JsonSerializer.Deserialize<string[]>("transactions.txt");
-            
-
-
-            // WriteTransactionDetails(transaction);
         }
 
 
