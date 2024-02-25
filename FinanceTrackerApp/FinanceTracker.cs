@@ -45,21 +45,5 @@ namespace financeTracker
         // focusing on handling persistence 
         // by reading from and writing to a transactions.json JSON file, 
         // managing serialization and deserialization of Transaction objects.
-        
-        
-        public static void SaveToJson(Transaction transaction, string fileName)
-        {
-            string transactionJson = JsonSerializer.Serialize(transaction);
-            File.WriteAllText(fileName, transactionJson);
-            System.Console.WriteLine("Saved.");
-        }
-
-
-        public List<Transaction> LoadFromJson(string fileName)
-        {
-            string jsonFromFile = File.ReadAllText(fileName);
-            List<Transaction> ?readTransactionList = JsonSerializer.Deserialize<List<Transaction>>(jsonFromFile);
-            return readTransactionList;
-        }
     }
 }
