@@ -1,3 +1,5 @@
+using System.Text.Json;
+
 namespace financeTracker
 {
     interface IFinance
@@ -10,9 +12,8 @@ namespace financeTracker
 
     interface IFinanceStorage
     {
-        //Specifies methods for loading and saving transaction data.
-        public void SaveData();
-        public void loadData();
+        void SaveToJson(Transaction transaction, string fileName);
+        public List<Transaction> LoadFromJson(string fileName);
     }
 
     public class Transaction
@@ -41,7 +42,7 @@ namespace financeTracker
         // and provide summaries (e.g., total income, total expenses, balance).
     }
 
-    class JsonFinanceStorage : IFinanceStorage
+    public class JsonFinanceStorage : IFinanceStorage
     {
         // Implementes the IFinanceStorage interface, 
         // focusing on handling persistence 
